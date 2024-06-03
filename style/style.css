@@ -1,0 +1,61 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100vw;
+   
+}
+.name{
+    background: none;
+    color:#CA315B;
+    font-size: larger;
+}
+.nav-items{
+ display: flex;
+ gap:10px;
+justify-content: center;
+text-size-adjust: 8px;
+
+}
+.nav-items li{
+    list-style: none;
+    font-size: medium;
+}
+a{
+    text-decoration: none;
+
+}
+a:visited{
+    color:red;
+}
+#banner{
+    background-image: url("/top-view-fast-food-with-copy-space.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:80vh;
+
+
+}
+.content{
+   width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+    
+}
+.section2{
+    margin: auto;
+}
+.content2 ul{
+    display: flex;
+    gap: 100px;
+}
